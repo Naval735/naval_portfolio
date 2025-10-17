@@ -1,0 +1,40 @@
+<section class="container my-5 py-5" id="contact">
+  <h2 class="text-center mb-5" style="color:#00d1b2;">Contact Me</h2>
+
+  <div class="row">
+    <!-- Contact Info -->
+    <div class="col-md-4 mb-4">
+      <div class="contact-info p-4 shadow rounded">
+        <h5>Email</h5>
+        <p><a href="mailto:naval.shukla45@gmail.com">@gmail.com</a></p>
+        <h5>Phone</h5>
+        <p><a href="tel:+911234567890">+91 8810860073</a></p>
+        <h5>Social</h5>
+        <p>
+          <a href="https://github.com/Naval735" target="_blank" class="me-3"><i class="bi bi-github fs-4"></i></a>
+          <a href="https://www.linkedin.com/in/naval-kishor-shukla-879238227/" target="_blank" class="me-3"><i class="bi bi-linkedin fs-4"></i></a>
+          <a href="https://www.instagram.com/naval.shukla45/?hl=en" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-8">
+      <form id="contactForm" (submit)="sendEmail($event)" class="p-4 shadow rounded contact-form bg-dark text-white">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="user_name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="user_email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

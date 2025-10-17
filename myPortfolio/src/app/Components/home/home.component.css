@@ -1,0 +1,21 @@
+section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+h1 {
+  animation: fadeInDown 1.2s ease-out;
+}
+p {
+  animation: fadeInUp 1.5s ease-out;
+}
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+section {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}

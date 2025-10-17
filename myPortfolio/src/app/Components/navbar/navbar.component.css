@@ -1,0 +1,42 @@
+/* Gradient text for logo */
+.gradient-text {
+  background: linear-gradient(45deg, #00d1b2, #00b39f);
+  -webkit-background-clip: text; /* Chrome, Safari, Edge */
+  -moz-background-clip: text;    /* Firefox partial */
+  background-clip: text;          /* standard */
+  -webkit-text-fill-color: transparent;
+  color: transparent;             /* fallback */
+  transition: transform 0.3s;
+}
+.gradient-text:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar shadow */
+.navbar {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+/* Nav link hover */
+.nav-link {
+  transition: color 0.3s, transform 0.3s;
+}
+.nav-link:hover {
+  color: #00d1b2 !important;
+  transform: translateY(-2px);
+}
+
+/* Social icons in offcanvas */
+.social-icons a {
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+.social-icons a:hover {
+  color: #00d1b2;
+  transform: scale(1.2);
+}
+
+/* Offcanvas body padding */
+.offcanvas-body {
+  padding-top: 2rem;
+}

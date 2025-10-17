@@ -1,0 +1,25 @@
+.contact-info {
+  background-color: #1e1e2f;
+  color: #fff;
+}
+.contact-info a {
+  color: #00d1b2;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: #00b39f;
+}
+.contact-form {
+  background-color: #121222;
+}
+.btn-primary {
+  background-color: #00d1b2;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #00b39f;
+}
+section {
+  background: linear-gradient(135deg, #1c1c2b, #3a3a5a);
+  color: #fff;
+}

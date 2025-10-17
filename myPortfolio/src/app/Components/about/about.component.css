@@ -1,0 +1,34 @@
+section {
+  background-color: #1e1e2f; /* dark-ish background */
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+}
+h2 {
+  font-weight: 700;
+  color: #00d1b2; /* accent color */
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.05);
+}
+section {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #fff;
+}
+.col-md-4, .col-md-8 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
