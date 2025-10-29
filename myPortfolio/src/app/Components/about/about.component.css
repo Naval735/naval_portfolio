@@ -1,5 +1,5 @@
 section {
-  background-color: #1e1e2f; /* dark-ish background */
+  /* background-color: #1e1e2f; */
   color: #ffffff;
   border-radius: 12px;
   padding: 40px;
@@ -19,7 +19,7 @@ img:hover {
   transform: scale(1.05);
 }
 section {
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
   color: #fff;
 }
 .col-md-4, .col-md-8 {

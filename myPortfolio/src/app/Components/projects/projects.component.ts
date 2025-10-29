@@ -22,7 +22,7 @@ export class ProjectsComponent implements AfterViewInit {
     {
       title: 'Foodie Website',
       description: 'Frontend fast-food website built with HTML, CSS, and JavaScript.',
-      image: 'assets/projects/foodie.jpg',
+      image: 'assets/foodimg.webp',
       link: 'https://github.com/Naval735/Foodie'
     }
   ];
@@ -41,6 +41,6 @@ export class ProjectsComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.onWindowScroll(); // trigger animation on load
+    this.onWindowScroll();
   }
 }

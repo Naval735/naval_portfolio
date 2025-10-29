@@ -20,6 +20,6 @@
   background-color: #00b39f;
 }
 section {
-  background: linear-gradient(135deg, #1c1c2b, #3a3a5a);
+  /* background: linear-gradient(135deg, #1c1c2b, #3a3a5a); */
   color: #fff;
 }

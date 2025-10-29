@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import '../node_modules/bootstrap/dist/css/bootstrap.css'
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+  background-attachment: fixed; /* keeps it fixed when scrolling */
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}

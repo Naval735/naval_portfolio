@@ -1,5 +1,5 @@
 section {
-  background-color: #121222;
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
   color: #fff;
   border-radius: 12px;
   padding: 40px;
@@ -7,8 +7,6 @@ section {
 h2 {
   font-weight: 700;
 }
-
-/* Card Styling */
 .project-card {
   background-color: #1e1e2f;
   border: none;
@@ -46,19 +44,19 @@ h2 {
   transform: translateY(0);
 }
 section {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
   color: #fff;
 }
 /* Existing project styles */
 section {
-  background: linear-gradient(135deg, #0f2027, #2c3e50);
+  /* background: linear-gradient(135deg, #0f2027, #2c3e50); */
   color: #fff;
   border-radius: 12px;
   padding: 40px;
 }
 
 .project-card {
-  background-color: #1e1e2f;
+  /* background-color: #1e1e2f; */
   border: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
